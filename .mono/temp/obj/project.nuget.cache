@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2631UMo/iJ7bQZVnFtrLbGt+8vYckQ261S+bL52800kwxf4aEDbjgIGO3qbZvC4VbC+A0p57nWHwEpnGjgaleg==",
+  "success": true,
+  "projectFilePath": "/mnt/c3ddc5d5-5c04-46ca-8162-1484e2bf3465/projects/godot_projects/Muchkin.Companion/MuchkinCompanion.csproj",
+  "expectedPackageFiles": [
+    "/home/rmlehnemann/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.2/microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "/home/rmlehnemann/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.2/microsoft.netframework.referenceassemblies.net472.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

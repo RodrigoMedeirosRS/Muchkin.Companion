@@ -1,0 +1,9 @@
+/mnt/c3ddc5d5-5c04-46ca-8162-1484e2bf3465/projects/godot_projects/Muchkin.Companion/.mono/temp/bin/ExportRelease/MuchkinCompanion.dll
+/mnt/c3ddc5d5-5c04-46ca-8162-1484e2bf3465/projects/godot_projects/Muchkin.Companion/.mono/temp/bin/ExportRelease/MuchkinCompanion.pdb
+/mnt/c3ddc5d5-5c04-46ca-8162-1484e2bf3465/projects/godot_projects/Muchkin.Companion/.mono/temp/obj/ExportRelease/MuchkinCompanion.csproj.AssemblyReference.cache
+/mnt/c3ddc5d5-5c04-46ca-8162-1484e2bf3465/projects/godot_projects/Muchkin.Companion/.mono/temp/obj/ExportRelease/MuchkinCompanion.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/c3ddc5d5-5c04-46ca-8162-1484e2bf3465/projects/godot_projects/Muchkin.Companion/.mono/temp/obj/ExportRelease/MuchkinCompanion.AssemblyInfoInputs.cache
+/mnt/c3ddc5d5-5c04-46ca-8162-1484e2bf3465/projects/godot_projects/Muchkin.Companion/.mono/temp/obj/ExportRelease/MuchkinCompanion.AssemblyInfo.cs
+/mnt/c3ddc5d5-5c04-46ca-8162-1484e2bf3465/projects/godot_projects/Muchkin.Companion/.mono/temp/obj/ExportRelease/MuchkinCompanion.csproj.CoreCompileInputs.cache
+/mnt/c3ddc5d5-5c04-46ca-8162-1484e2bf3465/projects/godot_projects/Muchkin.Companion/.mono/temp/obj/ExportRelease/MuchkinCompanion.dll
+/mnt/c3ddc5d5-5c04-46ca-8162-1484e2bf3465/projects/godot_projects/Muchkin.Companion/.mono/temp/obj/ExportRelease/MuchkinCompanion.pdb

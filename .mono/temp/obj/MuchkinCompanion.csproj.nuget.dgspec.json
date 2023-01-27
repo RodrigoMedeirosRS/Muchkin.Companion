@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "/mnt/c3ddc5d5-5c04-46ca-8162-1484e2bf3465/projects/godot_projects/Muchkin.Companion/MuchkinCompanion.csproj": {}
+  },
+  "projects": {
+    "/mnt/c3ddc5d5-5c04-46ca-8162-1484e2bf3465/projects/godot_projects/Muchkin.Companion/MuchkinCompanion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/c3ddc5d5-5c04-46ca-8162-1484e2bf3465/projects/godot_projects/Muchkin.Companion/MuchkinCompanion.csproj",
+        "projectName": "MuchkinCompanion",
+        "projectPath": "/mnt/c3ddc5d5-5c04-46ca-8162-1484e2bf3465/projects/godot_projects/Muchkin.Companion/MuchkinCompanion.csproj",
+        "packagesPath": "/home/rmlehnemann/.nuget/packages/",
+        "outputPath": "/mnt/c3ddc5d5-5c04-46ca-8162-1484e2bf3465/projects/godot_projects/Muchkin.Companion/.mono/temp/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/home/rmlehnemann/.local/share/godot/mono/GodotNuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/rmlehnemann/.nuget/NuGet/NuGet.Config",
+          "/home/rmlehnemann/.nuget/NuGet/config/Godot.Offline.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

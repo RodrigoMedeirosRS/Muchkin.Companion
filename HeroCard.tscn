@@ -1,0 +1,210 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://RES/Homem.png" type="Texture" id=1]
+[ext_resource path="res://RES/Mulher.png" type="Texture" id=2]
+[ext_resource path="res://RES/FlatUI/kenneyUI-yellow.tres" type="Theme" id=3]
+[ext_resource path="res://RES/FlatUI/kenneyUI-red.tres" type="Theme" id=4]
+[ext_resource path="res://CTRL/HeroCardCTRL.cs" type="Script" id=5]
+[ext_resource path="res://RES/FlatUI/kenneyUI.tres" type="Theme" id=6]
+
+[node name="HeroCard" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = -826.0
+rect_min_size = Vector2( 311, 640 )
+theme = ExtResource( 3 )
+script = ExtResource( 5 )
+
+[node name="ButtonNovo" type="Button" parent="."]
+margin_left = 22.0
+margin_top = 260.0
+margin_right = 287.0
+margin_bottom = 356.0
+theme = ExtResource( 6 )
+text = "Adicionar Jogador"
+
+[node name="Heroi" type="Control" parent="."]
+
+[node name="Panel" type="Panel" parent="Heroi"]
+margin_right = 311.0
+margin_bottom = 640.0
+rect_min_size = Vector2( 257, 640 )
+theme = ExtResource( 6 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Heroi"]
+margin_right = 309.0
+margin_bottom = 640.0
+alignment = 1
+
+[node name="Nivel" type="HBoxContainer" parent="Heroi/VBoxContainer"]
+margin_top = 8.0
+margin_right = 309.0
+margin_bottom = 50.0
+rect_min_size = Vector2( 0, 32 )
+theme = ExtResource( 4 )
+
+[node name="Nivel" type="Label" parent="Heroi/VBoxContainer/Nivel"]
+margin_right = 70.0
+margin_bottom = 42.0
+rect_min_size = Vector2( 0, 42 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "  Nivel:"
+align = 1
+valign = 1
+
+[node name="Valor" type="Label" parent="Heroi/VBoxContainer/Nivel"]
+margin_left = 74.0
+margin_right = 100.0
+margin_bottom = 42.0
+rect_min_size = Vector2( 0, 42 )
+text = "00"
+align = 1
+valign = 1
+
+[node name="NivelSlider" type="HSlider" parent="Heroi/VBoxContainer/Nivel"]
+margin_left = 104.0
+margin_right = 296.0
+margin_bottom = 42.0
+theme = ExtResource( 6 )
+min_value = 1.0
+max_value = 20.0
+value = 1.0
+
+[node name="HSeparator" type="HSeparator" parent="Heroi/VBoxContainer"]
+margin_top = 54.0
+margin_right = 309.0
+margin_bottom = 58.0
+
+[node name="Personagem" type="TextureButton" parent="Heroi/VBoxContainer"]
+margin_top = 62.0
+margin_right = 309.0
+margin_bottom = 415.0
+rect_min_size = Vector2( 275, 353 )
+toggle_mode = true
+texture_normal = ExtResource( 1 )
+texture_pressed = ExtResource( 2 )
+expand = true
+
+[node name="HSeparator2" type="HSeparator" parent="Heroi/VBoxContainer"]
+margin_top = 419.0
+margin_right = 309.0
+margin_bottom = 423.0
+
+[node name="Equipamento" type="HBoxContainer" parent="Heroi/VBoxContainer"]
+margin_top = 427.0
+margin_right = 309.0
+margin_bottom = 469.0
+rect_min_size = Vector2( 0, 32 )
+
+[node name="Equip" type="Label" parent="Heroi/VBoxContainer/Equipamento"]
+margin_right = 70.0
+margin_bottom = 42.0
+rect_min_size = Vector2( 0, 42 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "  Equip:"
+align = 1
+valign = 1
+
+[node name="Valor" type="Label" parent="Heroi/VBoxContainer/Equipamento"]
+margin_left = 74.0
+margin_right = 100.0
+margin_bottom = 42.0
+rect_min_size = Vector2( 0, 42 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+text = "00"
+align = 1
+valign = 1
+
+[node name="NivelEquip" type="HSlider" parent="Heroi/VBoxContainer/Equipamento"]
+margin_left = 104.0
+margin_right = 296.0
+margin_bottom = 42.0
+theme = ExtResource( 6 )
+max_value = 50.0
+
+[node name="HSeparator3" type="HSeparator" parent="Heroi/VBoxContainer"]
+margin_top = 473.0
+margin_right = 309.0
+margin_bottom = 477.0
+
+[node name="Maldicao" type="HBoxContainer" parent="Heroi/VBoxContainer"]
+margin_top = 481.0
+margin_right = 309.0
+margin_bottom = 523.0
+rect_min_size = Vector2( 0, 32 )
+
+[node name="Equip" type="Label" parent="Heroi/VBoxContainer/Maldicao"]
+margin_right = 70.0
+margin_bottom = 42.0
+rect_min_size = Vector2( 0, 42 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = " Maldi:"
+align = 1
+valign = 1
+
+[node name="Valor" type="Label" parent="Heroi/VBoxContainer/Maldicao"]
+margin_left = 74.0
+margin_right = 113.0
+margin_bottom = 42.0
+rect_min_size = Vector2( 0, 42 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+text = "-00"
+align = 1
+valign = 1
+
+[node name="NivelMaldicao" type="HSlider" parent="Heroi/VBoxContainer/Maldicao"]
+margin_left = 117.0
+margin_right = 309.0
+margin_bottom = 42.0
+theme = ExtResource( 6 )
+min_value = -50.0
+max_value = 0.0
+
+[node name="HSeparator4" type="HSeparator" parent="Heroi/VBoxContainer"]
+margin_top = 527.0
+margin_right = 309.0
+margin_bottom = 531.0
+
+[node name="Poder" type="HBoxContainer" parent="Heroi/VBoxContainer"]
+margin_top = 535.0
+margin_right = 309.0
+margin_bottom = 577.0
+rect_min_size = Vector2( 0, 32 )
+alignment = 1
+
+[node name="Poder" type="Label" parent="Heroi/VBoxContainer/Poder"]
+margin_left = 70.0
+margin_right = 209.0
+margin_bottom = 42.0
+rect_min_size = Vector2( 0, 42 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Poder Total:"
+align = 1
+valign = 1
+
+[node name="Valor" type="Label" parent="Heroi/VBoxContainer/Poder"]
+margin_left = 213.0
+margin_right = 239.0
+margin_bottom = 42.0
+rect_min_size = Vector2( 0, 42 )
+text = "00"
+align = 1
+valign = 1
+
+[node name="HSeparator5" type="HSeparator" parent="Heroi/VBoxContainer"]
+margin_top = 581.0
+margin_right = 309.0
+margin_bottom = 585.0
+
+[node name="Button" type="Button" parent="Heroi/VBoxContainer"]
+margin_top = 589.0
+margin_right = 309.0
+margin_bottom = 631.251
+theme = ExtResource( 6 )
+text = "Fechar"
+
+[connection signal="button_up" from="ButtonNovo" to="." method="_on_ButtonNovo_button_up"]
+[connection signal="value_changed" from="Heroi/VBoxContainer/Nivel/NivelSlider" to="." method="_on_NivelSlider_value_changed"]
+[connection signal="value_changed" from="Heroi/VBoxContainer/Equipamento/NivelEquip" to="." method="_on_NivelEquip_value_changed"]
+[connection signal="value_changed" from="Heroi/VBoxContainer/Maldicao/NivelMaldicao" to="." method="_on_NivelMaldicao_value_changed"]
+[connection signal="button_up" from="Heroi/VBoxContainer/Button" to="." method="_on_Button_button_up"]
