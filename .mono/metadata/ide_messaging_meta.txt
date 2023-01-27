@@ -1,2 +1,0 @@
-﻿40993
-/mnt/c3ddc5d5-5c04-46ca-8162-1484e2bf3465/apps/Godot/Godot.3.5.1.64
